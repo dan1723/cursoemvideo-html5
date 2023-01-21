@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação da nacionalidade</title> 
+    <style>
+        body {
+            background: rgb(91, 246, 91);
+            color: white;
+            margin: 2px;
+            font-size: 20px;   
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Nacionalidade brasileira ou estrangeira</h1>
+   Informe o pais que você nasceu: <input type="text" name="pais" id="pais">
+   <input type="button" value="Verificar" onclick="averiguar()">
+    <div id="res"></div>
+
+    <script>
+        function averiguar(){
+            var ori = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+            var txt = ori.value
+            res.innerHTML = `<p>Você mora no /ou na ${txt}</p>`
+            if(txt == 'Brasil'){
+                res.innerHTML += '<p>Sua nacionalidade é brasileira</p>'
+            } else{ res.innerHTML += '<p>Sua nacionalidade é estrangiera</p>'}
+        }
+    </script>
+
+   
+
+</body>
+</html>

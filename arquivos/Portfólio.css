@@ -1,0 +1,101 @@
+body{
+background-color: rgb(32, 32, 53);
+display: grid;
+font-family:"merriweathe sans";
+font-weight: 400 500 700;
+}
+
+.box{
+background-color: rgb(56, 56, 90);
+border-radius: 3%;
+}
+
+p{
+position: relative;
+text-align: center;
+color: white;
+}
+
+a{
+    color: white;
+}
+
+img{
+    border-radius: 150%;
+    border: 3px solid green;
+    position: relative;
+    left: 100px;
+}
+
+.box1{
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 20px;
+    top: 20px;
+}
+
+.box2{
+    position: absolute;
+    width: 952px;
+    height: 40px;
+    left: 448px;
+    top: 20px;
+}
+
+.box3{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 80px;
+}
+
+.box4{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 939px;
+    top: 80px;
+}
+
+.box5{
+    position: absolute;
+    width: 952px;
+    height: 50px;
+    left: 448px;
+    top: 290px;
+}
+
+.box6{
+
+    position: absolute;
+    width: 952px;
+    height: 250px;
+    left: 448px;
+    top: 370px;
+}
+
+.box7{
+    position: absolute;
+    width: 348px;
+    height: 470px;
+    left: 20px;
+    top: 362px;
+}
+
+.box8{
+    position: absolute;
+    width: 590px;
+    height: 180px;
+    left: 810px;
+    top: 650px;
+}
+
+.box9{
+    position: absolute;
+    width: 348px;
+    height: 180px;
+    left: 450px;
+    top: 650px;
+}
